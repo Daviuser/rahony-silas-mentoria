@@ -1,0 +1,8 @@
+@import "../styles/effects.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+body { @apply bg-ink font-sans text-base leading-relaxed text-warm antialiased; overflow-x: hidden; }
